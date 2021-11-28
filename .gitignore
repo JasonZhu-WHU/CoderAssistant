@@ -1,0 +1,39 @@
+### Java template
+*.class
+
+## Directory-based project format:
+.idea/
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+#logstash.properties
+logstash.properties
+
+# Gradle
+.gradle/
+build/
+
+# IntelliJ
+/out/
+*.iml
+
+# Package Files #
+*.jar
+!gradle-wrapper.jar
+*.war
+*.ear
+!plugin.xml
+
+##Run Directory
+/run/
+
+# SpongeStart Class files
+classes/
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Created by .ignore support plugin (hsz.mobi)
+
+StackInTheFlow.zip
