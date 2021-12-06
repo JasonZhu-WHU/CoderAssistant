@@ -20,7 +20,7 @@ Take your automation one step further by having CoderAssistant generate queries 
 
 ##### Automatically Generate Queries from the error message
 
-Take your automation one step further by having CoderAssistant generate queries for you. Either generate a query from an editor tab or select a block of code, then right-click and select Auto Query!
+CoderAssistant frees you from 'copy-and-paste' by generating query directly from the error message. And what makes a difference is that this is totally automatic.
 
 
 
