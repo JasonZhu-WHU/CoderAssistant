@@ -25,7 +25,7 @@ repositories {
 
 intellij {
     version 'IC-2017.2'
-    pluginName 'StackInTheFlow'
+    pluginName 'CoderAssistant' //StackInTheFlow
 
     // Uncomment to test against android studio
     // alternativeIdePath '/path/to/android-studio'

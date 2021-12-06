@@ -1,50 +1,48 @@
-# CoderAssistant <img src="https://github.com/vcu-swim-lab/stack-intheflow/blob/master/src/main/resources/icons/main.png" width="65" height="60">
+# CoderAssistant
 
 An IntelliJ plugin to query StackOverflow automatically. (Course Project for Advanced Software Engineering)
 
-### Search StackOverflow Without Leaving the IDE
 
-CoderAssistant integrates seamlessly with Intellij to allow you to find the solutions to the development problems you face without ever leaving the *flow* of your development environment.
 
-![Search](https://i.imgur.com/Rt5tYun.gif)
+### Highlight Features
 
-### Automatically Generate Queries from your Code
+##### Search StackOverflow Without Leaving the IDE
+
+CoderAssistant integrates seamlessly with Intellij to allow you to find the solutions to the development problems you face without ever leaving the your development environment.
+
+
+
+##### Automatically Generate Queries from your Code
+
+Take your automation one step further by having CoderAssistant generate queries for you. Either generate a query from an editor tab or select a block of code, then right-click and select Auto Query! This function is implemented though training a model using CodeBERT.
+
+
+
+##### Automatically Generate Queries from the error message
 
 Take your automation one step further by having CoderAssistant generate queries for you. Either generate a query from an editor tab or select a block of code, then right-click and select Auto Query!
 
-![Auto](https://i.imgur.com/yB7fH5N.gif)
 
-### Receive Smart Recommendations to Accelerate your Workflow
-
-If enabled, CoderAssistant with make suggestions of StackOverflow articles when it thinks they will help you out with your current task, ensuring relevant information is always at your fingertips. Never manually search for the meaning behind a cryptic error message again!
-
-![Error](https://i.imgur.com/L9WO8OF.png)
-
-### Sort & Filter
-
-Refine your searches by sorting by different metrics and filtering by specific tags. If you never want to leave the comfort of your keyboard, you can even press `<TAB>` to add the previous word as a tag.
-
-![Filter](https://i.imgur.com/NuQF2cl.gif)
 
 ********
 
-## Install
+## How to Install
 
-Currently not supported. This project is still under development.
+You can install this plugin through donwloading the release package, which is a zip file.
 
-<<<<<<< HEAD
-=======
-## Procedures to build the whole project
+And then import this plugin zip package into the Idea-2017-2, which could be downloaded from [here](https://www.jetbrains.com/idea/download/other.html).
+
+To make use of the code context search function, you can download the trained model from [here](https://github.com/JasonZhu-WHU/CoderAssistantModel). 
+
+## Procedures to Build the Project
 
 Firstly, Download Idea 2017-2 from [here](https://www.jetbrains.com/idea/download/other.html)
 
 In Idea:
 1. View - Tool Windows - Gradle - Refresh Button
-2. After generating output directory, expand Tasks Directory in Gradle, and then click intellij directory
-3. Run runIdea
+2. After generating output directory, expand Tasks Directory in Gradle. And then expand intellij directory.
+3. Click 'runIdea' or 'runIde'
 
-
->>>>>>> 185f428 (Finished - final push)
 ## License
 
 [MIT](./LICENSE)
@@ -56,7 +54,3 @@ Our work is based on [StackInTheFlow: behavior-driven recommendation system for 
 > Feng Z, Guo D, Tang D, et al. Codebert: A pre-trained model for programming and natural languages[J]. arXiv preprint arXiv:2002.08155, 2020.
 >
 > Greco C, Haden T, Damevski K. StackInTheFlow: behavior-driven recommendation system for stack overflow posts[C]//Proceedings of the 40th International Conference on Software Engineering: Companion Proceeedings. 2018: 5-8.
-<<<<<<< HEAD
-=======
-
->>>>>>> 185f428 (Finished - final push)

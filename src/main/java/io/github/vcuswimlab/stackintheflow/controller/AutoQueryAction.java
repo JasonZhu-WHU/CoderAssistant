@@ -40,11 +40,7 @@ public class AutoQueryAction extends AnAction {
         String autoQuery = project.getComponent(TermStatComponent.class).generateQuery(editor);
 
         //Execute Search and Open Tool Window
-<<<<<<< HEAD
-        ToolWindow toolWindow = ToolWindowManager.getInstance(project).getToolWindow("StackInTheFlow");
-=======
         ToolWindow toolWindow = ToolWindowManager.getInstance(project).getToolWindow("CoderAssistant");
->>>>>>> 185f428 (Finished - final push)
         SearchToolWindowGUI toolWindowGUI = project.getComponent(ToolWindowComponent.class).getSearchToolWindowGUI();
         toolWindowGUI.autoQuery(autoQuery, true, "action");
         toolWindow.activate(() -> {
