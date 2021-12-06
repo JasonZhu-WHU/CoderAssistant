@@ -32,6 +32,19 @@ Refine your searches by sorting by different metrics and filtering by specific t
 
 Currently not supported. This project is still under development.
 
+<<<<<<< HEAD
+=======
+## Procedures to build the whole project
+
+Firstly, Download Idea 2017-2 from [here](https://www.jetbrains.com/idea/download/other.html)
+
+In Idea:
+1. View - Tool Windows - Gradle - Refresh Button
+2. After generating output directory, expand Tasks Directory in Gradle, and then click intellij directory
+3. Run runIdea
+
+
+>>>>>>> 185f428 (Finished - final push)
 ## License
 
 [MIT](./LICENSE)
@@ -43,3 +56,7 @@ Our work is based on [StackInTheFlow: behavior-driven recommendation system for 
 > Feng Z, Guo D, Tang D, et al. Codebert: A pre-trained model for programming and natural languages[J]. arXiv preprint arXiv:2002.08155, 2020.
 >
 > Greco C, Haden T, Damevski K. StackInTheFlow: behavior-driven recommendation system for stack overflow posts[C]//Proceedings of the 40th International Conference on Software Engineering: Companion Proceeedings. 2018: 5-8.
+<<<<<<< HEAD
+=======
+
+>>>>>>> 185f428 (Finished - final push)

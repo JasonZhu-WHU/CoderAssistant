@@ -11,7 +11,11 @@
 logstash.properties
 
 # Gradle
+<<<<<<< HEAD
 .gradle/
+=======
+# .gradle/
+>>>>>>> 185f428 (Finished - final push)
 build/
 
 # IntelliJ
@@ -36,4 +40,8 @@ hs_err_pid*
 
 # Created by .ignore support plugin (hsz.mobi)
 
+<<<<<<< HEAD
 StackInTheFlow.zip
+=======
+#StackInTheFlow.zip
+>>>>>>> 185f428 (Finished - final push)

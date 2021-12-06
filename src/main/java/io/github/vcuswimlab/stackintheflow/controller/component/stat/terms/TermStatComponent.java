@@ -20,7 +20,11 @@ import java.util.*;
 
 public class TermStatComponent implements ApplicationComponent {
 
+<<<<<<< HEAD
     public static final String COMPONENT_ID = "StackInTheFlow.TermStatComponent";
+=======
+    public static final String COMPONENT_ID = "CoderAssistant.TermStatComponent";
+>>>>>>> 185f428 (Finished - final push)
     private long termCount;
     private long docCount;
     private Map<String, Stat> termStatMap;

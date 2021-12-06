@@ -19,7 +19,11 @@ public class JerseyGet {
 
     private static final String SEARCH_URL = "https://api.stackexchange.com/2.2/search";
     private static final String KEY_PARAM = "key";
+<<<<<<< HEAD
     private static final String DEV_KEY = "4ZsC*xim)NbV1IbL5Z2xEg((";
+=======
+    private static final String DEV_KEY = "UNYk*glC5lFlYvbjTOpJwQ((";
+>>>>>>> 185f428 (Finished - final push)
     private static final String ENCODING_TYPE = "gzip";
     private static JerseyGet instance = null;
     private Client client;
