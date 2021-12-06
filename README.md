@@ -30,13 +30,13 @@ Take your automation one step further by having CoderAssistant generate queries 
 
 You can install this plugin through donwloading the release package, which is a [zipfile](https://github.com/JasonZhu-WHU/CoderAssistant/releases/download/v1.0.0/CoderAssistant-1.0.0.jar).
 
-And then import this plugin zip package into the Idea-2017-2, which could be downloaded from [here](https://www.jetbrains.com/idea/download/other.html).
+And then import this plugin zip package into the Idea-2017-2, which could be downloaded from here: [windows](https://download.jetbrains.com/idea/ideaIC-2017.2.7.win.zip?_gl=1*10nj294*_ga*MTY4NjkxMDc3Mi4xNjI5MzQwOTgz*_ga_V0XZL7QHEB*MTYzODc3MTQzMy44LjAuMTYzODc3MTQ1MS4w&_ga=2.9619957.1923004857.1638771434-1686910772.1629340983), [mac](https://download.jetbrains.com/idea/ideaIC-2017.2.7.dmg?_gl=1*1x7oi22*_ga*MTY4NjkxMDc3Mi4xNjI5MzQwOTgz*_ga_V0XZL7QHEB*MTYzODc3MTQzMy44LjAuMTYzODc3MTQ1MS4w&_ga=2.240371779.1923004857.1638771434-1686910772.1629340983) and the [official-website](https://www.jetbrains.com/idea/download/other.html).
 
 To make use of the code context search function, you can download the trained model from [here](https://github.com/JasonZhu-WHU/CoderAssistantModel). 
 
 ## Procedures to Build the Project
 
-Firstly, Download Idea 2017-2 for [windows](https://download.jetbrains.com/idea/ideaIC-2017.2.7.win.zip?_gl=1*10nj294*_ga*MTY4NjkxMDc3Mi4xNjI5MzQwOTgz*_ga_V0XZL7QHEB*MTYzODc3MTQzMy44LjAuMTYzODc3MTQ1MS4w&_ga=2.9619957.1923004857.1638771434-1686910772.1629340983), and for [mac](https://download.jetbrains.com/idea/ideaIC-2017.2.7.dmg?_gl=1*1x7oi22*_ga*MTY4NjkxMDc3Mi4xNjI5MzQwOTgz*_ga_V0XZL7QHEB*MTYzODc3MTQzMy44LjAuMTYzODc3MTQ1MS4w&_ga=2.240371779.1923004857.1638771434-1686910772.1629340983). [here](https://www.jetbrains.com/idea/download/other.html)
+Firstly, Download Idea 2017-2 for [windows](https://download.jetbrains.com/idea/ideaIC-2017.2.7.win.zip?_gl=1*10nj294*_ga*MTY4NjkxMDc3Mi4xNjI5MzQwOTgz*_ga_V0XZL7QHEB*MTYzODc3MTQzMy44LjAuMTYzODc3MTQ1MS4w&_ga=2.9619957.1923004857.1638771434-1686910772.1629340983), and for [mac](https://download.jetbrains.com/idea/ideaIC-2017.2.7.dmg?_gl=1*1x7oi22*_ga*MTY4NjkxMDc3Mi4xNjI5MzQwOTgz*_ga_V0XZL7QHEB*MTYzODc3MTQzMy44LjAuMTYzODc3MTQ1MS4w&_ga=2.240371779.1923004857.1638771434-1686910772.1629340983). [Here](https://www.jetbrains.com/idea/download/other.html)
  is the official website. 
 In Idea:
 1. View - Tool Windows - Gradle - Refresh Button
