@@ -28,7 +28,7 @@ Take your automation one step further by having CoderAssistant generate queries 
 
 ## How to Install
 
-You can install this plugin through donwloading the release package, which is a zip file.
+You can install this plugin through donwloading the release package, which is a [zipfile](https://github.com/JasonZhu-WHU/CoderAssistant/releases/download/v1.0.0/CoderAssistant-1.0.0.jar).
 
 And then import this plugin zip package into the Idea-2017-2, which could be downloaded from [here](https://www.jetbrains.com/idea/download/other.html).
 

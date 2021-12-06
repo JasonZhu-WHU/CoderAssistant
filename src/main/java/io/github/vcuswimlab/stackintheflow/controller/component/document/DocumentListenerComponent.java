@@ -25,11 +25,7 @@ import java.awt.*;
  */
 public class DocumentListenerComponent implements ProjectComponent {
 
-<<<<<<< HEAD
-    public static final String COMPONENT_ID = "StackInTheFlow.DocumentListenerComponent";
-=======
     public static final String COMPONENT_ID = "CoderAssistant.DocumentListenerComponent";
->>>>>>> 185f428 (Finished - final push)
 
     private final Project project;
     private MessageBusConnection connection;
